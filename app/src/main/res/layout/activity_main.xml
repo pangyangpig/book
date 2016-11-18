@@ -5,4 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
+    <Button android:id="@+id/btn_test"
+        android:text="@string/action_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/tv_display"
+        android:layout_below="@id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>
